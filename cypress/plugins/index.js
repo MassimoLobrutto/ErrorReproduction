@@ -49,6 +49,7 @@ module.exports = (on, config) => {
     on(
       'file:preprocessor',
       createBundler({
+        sourcemap: "inline",
         plugins: [nodePolyfills(), createEsbuildPlugin(config)],
       }),
     );

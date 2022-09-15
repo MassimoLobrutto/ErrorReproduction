@@ -66,6 +66,7 @@ cypress/screenshots
 reports/*.html
 cypress/reports/*.json
 jsonlogs/*.json
+jsonlogs/*.ndjson
 Users
 test-results
 LICENSE
